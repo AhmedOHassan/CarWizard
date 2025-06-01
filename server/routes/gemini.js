@@ -88,7 +88,7 @@ Please respond ONLY in JSON format like this:
       return res.status(500).json({ error: "Gemini did not return valid JSON." });
     }
 
-    console.log("Parsed response:", parsed);
+    //console.log("Parsed response:", parsed);
 
     const cleanedParts = cleanPartKeywords(parsed.replacementParts);
     const partsQuery = `${make} ${carModel} ${year} (${cleanedParts.join(" OR ")}) site:amazon.com OR site:autozone.com OR site:shop.advanceautoparts.com`;
