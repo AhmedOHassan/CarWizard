@@ -89,3 +89,9 @@ npm run dev
 
 - Chat session history and user login
 - Smart image upload for visual diagnosis
+
+---
+
+## Demo
+
+https://youtu.be/AtmIbKYZ6uw?si=rMOsAHVr3DbeGZly
